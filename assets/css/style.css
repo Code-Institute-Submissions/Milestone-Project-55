@@ -6,7 +6,7 @@ body {
 /*-----------Navbar--------------*/
 
 .bg-dark {
-    background-color: #545b62!important;
+    background-color: #545b62;
 }
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
@@ -32,26 +32,36 @@ a {
 .logo-text {
    font-family: 'Dancing Script', cursive;
    font-weight: 300;
-   font-size: 35px;
+   font-size: 115px;
    color: greenyellow; 
-
-   display: -200px 50px;
 }
 
-.logo-text h1 p{
-    position: relative;
-    height: 150%;
-    width: 30%;
+.logo-text2 {
+   font-family: 'Dancing Script', cursive;
+   font-weight: 300;
+   font-size: 90px;
+   color: #ffc107;  
 }
 
-.logo {
 
+/*-----------Background--------------*/
+
+
+#background-picture1 {
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 150vh;
+    width: 100%;
+    margin: 0px;
+    z-index: 1;
+
+    
 }
 
-h1 {
-    position: relative;
-    margin: 0;
-}
+
+
 
 .jumbotron {
     background-color:#343a40;
