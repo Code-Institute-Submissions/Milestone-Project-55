@@ -32,13 +32,10 @@ body {
     width: 100%;
 }
 
-.navbar .navbar-toggler {
-    border: 0;
+.bg-dark {
+    background-color: #485058!important;
 }
 
-.bg-dark {
-    background-color: #545b62;
-}
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-weight: 300;
@@ -106,7 +103,7 @@ a {
 /*-----------Jumbotron--------------*/
 
 .jumbotron {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 /*-----------Buttons--------------*/
@@ -142,6 +139,8 @@ a {
 .navbar-brand:hover {
    color: #fdf610;
 }
+
+
 
 /*-----------Page Header--------------*/
 
@@ -207,13 +206,22 @@ li {
 
 /*-----------Contact Section--------------*/
 
-.form {
-    display: center;
-}
+
 
 .form-control {
     background-color: #fdf610;
-    border: 1px solid #03ff0b
+    border: 1px solid #03ff0b;
+    color:#4ad472;
+}
+.form-control:focus {
+    color: #e1e1e1;
+    background-color: #596067;
+    border-color: #03ff0b;
+}
+
+.form-control:active {
+    background-color: #4ad472;
+    border-color: #e3f311; 
 }
 
 .btn-success.disabled {
@@ -226,37 +234,55 @@ li {
     border-color: #89ec88; 
 }
 
+/*-----------Footer--------------*/
+
+footer  {
+    background-color:#485058;
+    text-align: center;
+    padding: 10px;
+}
+
 
 @media screen and (max-width: 576px) {
-  body {
+body {
     background-color: transparent; 
-    }
+}
 
-  .logo-container {
+.container-wrapper {
+    margin:0;
+    padding: 1px!important;
+}
+
+.logo-container {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    margin-top: 0px;
+    margin-top: 117px;
     position: relative;
     background-color: #343a40;
-  }
+}
 
-  .logo-text {
+.logo-text {
      font-size: 75px;
      display: inline;
      padding: 0;
      margin: 0;
-  }
+}
 
-  .logo-text2 {
+.logo-text2 {
       font-size: 43px;
       display: inline;
-  }
+}
   
-
 .block-divider {
     width: 100px;
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
 }
 }
