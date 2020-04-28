@@ -166,6 +166,8 @@ h3 {
     margin: 30px;
 }
 
+/*-----------Menu Section--------------*/
+
 .menu-option {
     color: #fdf610;
 }
@@ -193,7 +195,39 @@ li {
     border-color: #fdf610!important;
 }
 
-@media screen and (max-width: 520px) {
+/*-----------Gallery Section--------------*/
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding:0;
+  margin-top: 0;
+}
+
+/*-----------Contact Section--------------*/
+
+.form {
+    display: center;
+}
+
+.form-control {
+    background-color: #fdf610;
+    border: 1px solid #03ff0b
+}
+
+.btn-success.disabled {
+    color: #868e08;
+    background-color: #03ff0b;
+    border-color: #5b8c61;
+}
+.btn-success.disabled:hover {
+    background-color: #4cca4f;
+    border-color: #89ec88; 
+}
+
+
+@media screen and (max-width: 576px) {
   body {
     background-color: transparent; 
     }
@@ -206,6 +240,7 @@ li {
     height: 100%;
     margin-top: 0px;
     position: relative;
+    background-color: #343a40;
   }
 
   .logo-text {

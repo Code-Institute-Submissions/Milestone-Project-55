@@ -26,9 +26,6 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav  mr-auto">
 					<li class="nav-item">
-						<a class=" active text-navbar mr-2" href="index.html"> Home</a>
-					</li>
-					<li class="nav-item">
 						<a class="text-navbar mr-2" href="#about"> About</a>
 					</li>
 					<li class="nav-item">
@@ -38,15 +35,15 @@
 						<a class="text-navbar mr-2" href="#menu"> Menu</a>
 					</li>
 					<li class="nav-item">
-						<a class="text-navbar mr-2" href="#"> Gallery</a>
+						<a class="text-navbar mr-2" href="#gallery"> Gallery</a>
 					</li>
 					<li class="nav-item">
-						<a class="text-navbar mr-2" href="#"> Contact</a>
+						<a class="text-navbar mr-2" href="#contact"> Contact</a>
 					</li>
 				</ul>
 			</div>
-			<div class="my-auto mr-0 d-md-block bg-dark">
-				<a href="#" class="btn btn--cta btn--green">Sign In / Sign Up</a>
+			<div class="my-auto d-md-inline bg-dark">
+				<a href="#contact" class="btn btn--cta btn--green">Sign In / Sign Up</a>
 			</div>
 		</nav>
 	</div>
@@ -62,7 +59,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-wrapper">.
+	<div class="container-wrapper p-5">.
 		<section class="container-fluid about-container" id="about">
 			<div class="row">
 				<div class="col-12 mt-5 page-header">
@@ -110,7 +107,7 @@
 			</div>
 		</section>
 
-		<div class="container menu-container">
+		<div class="container-fluid menu-container">
 			<section class="menu" id="menu">
 				<div class="row">
 					<div class="col-12 mt-5 page-header">
@@ -211,6 +208,71 @@
 				</div>
 			</section>
 		</div>
+		<section class="container-fluid gallery-container" id="gallery">
+			<div class="row">
+				<div class="col-12 mt-5 page-header">
+					<h1 class="uppercase text-center">Gallery</h1>
+					<hr class=" mb-5 block-divider block-divider--long">
+				</div>
+			</div>
+			<div class="col-12">
+				<div class="row images-container no-gutters">
+					<div class="column col-12 col-md-4">
+						<img src="./assets/images/gallery1.jpg" alt="Food" style="float: left; height: 23em;">
+                </div>
+						<div class="column col-12 col-md-4">
+							<img src="./assets/images/gallery2.jpg" alt="Food" style="float: left; height: 23em;">
+                </div>
+							<div class="column col-12 col-md-4">
+								<img src="./assets/images/gallery10.jpg" alt="Food" style="float: left; height:23em;">
+                </div>
+								<div class="column col-12 col-md-4">
+									<img src="./assets/images/gallery8.jpg" alt="Food" style="float: left; height: 23em;">
+                </div>
+									<div class="column col-12 col-md-4">
+										<img src="./assets/images/gallery11.jpg" alt="Food" style="float: left; height: 23em;">
+                </div>
+										<div class="column col-12 col-md-4">
+											<img src="./assets/images/gallery4.jpg" alt="Food" style="float: left; height: 23em;">
+                </div>
+										</div>
+									</div>
+		</section>
+		<div class="container-fluid contact-container">
+			<section class="contact" id="contact">
+				<div class="row">
+					<div class="col-12 mt-5 page-header">
+						<h1 class="uppercase text-center">Contact</h1>
+						<hr class="block-divider block-divider--long">
+					</div>
+				</div>
+                <div class="row">
+                <div class="col-12">
+		            <form role="form" class="form">
+                        <br style="clear:both">
+    				    <div class="form-group col-md-8 offset-md-2">
+                         <label for="name">Name</label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="" required>
+					   </div>
+                       <div class="form-group col-md-8 offset-md-2">
+                        <label for="surname">Surname</label>
+						<input type="text" class="form-control" id="surname" name="surname" placeholder="" required>
+					   </div>
+					   <div class="form-group col-md-8 offset-md-2">
+                        <label for="email">Email</label>
+						<input type="email" class="form-control" id="email" name="email" placeholder="" required>
+					   </div>
+					   <div class="form-group col-md-8 offset-md-2">
+                       <label for="message">Message</label>
+                        <textarea class="form-control" type="textarea" id="message" placeholder="Write something about yourself ...." maxlength="140" rows="7"></textarea>
+                        <br>
+                        <button type="submit" id="submit" name="submit" class="btn btn-success pull-left disabled">Submit Form</button>                     
+                        </div>
+                    </form>
+                    </div>
+                </div>
+		    </section>
+	    </div>
 	</div>
 
 
