@@ -15,8 +15,12 @@ body {
     width: 800px;
     height: 5px;
     border: 0;
-    margin-bottom: 20px;
-    background-color: #fdf610;   
+    margin-bottom: 80px;
+    margin-top: 40px;
+    background-color: #fdf610;
+    margin-left: auto;
+    margin-right: auto; 
+ 
 }
 
 /*-----------Navbar--------------*/
@@ -50,7 +54,11 @@ body {
     margin-right: 4rem;
 }
 
-a:hover {
+.text-navbar:hover {
+    color: #f1b606;
+}
+
+.btn a:hover {
     color: #4cca4f;
 }
 
@@ -58,17 +66,20 @@ a:hover {
     outline: black;
 }
 
+.navbar-light .navbar-brand {
+    color: #03ff0b;
+}
+    
+
 /*-----------Logo--------------*/
 
 .logo-container {
-    height: 100vh;
     background-image: url("../images/background5.jpg");
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: 50px;
-
+    height: 100vh;
     
     display: flex;
     align-items: center;
@@ -155,7 +166,7 @@ a:hover {
 
 /*-----------Page Header--------------*/
 
-.page-header h1 {
+.page-header h2 {
     margin: 20px;
     padding: 20px;
     color: #03ff0b;
@@ -169,7 +180,7 @@ a:hover {
     text-align: left;
 }
 
-h3 {
+.middle-title {
     text-align: left;
     text-decoration: underline;
     color: #03ff0b;
@@ -207,13 +218,12 @@ li {
 
 /*-----------Gallery Section--------------*/
 
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding:0;
-  margin-top: 0;
+.images-container img {
+   width: auto;
+   
 }
+
+
 
 /*-----------Contact Section--------------*/
 
@@ -264,20 +274,20 @@ body {
     background-color: transparent; 
 }
 
-.container-wrapper {
-    margin:0;
-    padding: 1px!important;
-}
-
 .logo-container {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    margin-top: 117px;
+    margin-top: 78px;
     position: relative;
     background-color: #343a40;
+}
+
+.images-container img {
+    width: auto;
+    max-width: 100%;
 }
 
 .logo-text {
@@ -296,32 +306,18 @@ body {
     width: 100px;
 }
 
-img {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
-}
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-weight: 300;
     font-size: 35px;
     color: #03ff0b;
 }
-
 }
 
 @media only screen and (min-width: 768px) {
     body {
     background-color: transparent; 
 }
-
-    img {
-        width:auto;
-        max-width:100%;
-        height:auto;
-        padding-right:2%;
-        margin-bottom:2%;
-    }
 
 .logo-container {
     background-size: cover;
@@ -333,17 +329,20 @@ img {
     position: relative;
     background-color: #343a40;
 }
+
+.images-container img {
+    width: auto;
+    max-width: 100%;
+}
 }
 
 @media only screen and (min-width: 900px) {
 body {
     background-color: transparent; 
 }
+.images-container img {
+    width: auto;
+    max-width: 100%;
 
-img {
-    width:100%;
-    height:auto;
-    padding-right:5%;
-    margin-bottom:5%;
 }
 }
