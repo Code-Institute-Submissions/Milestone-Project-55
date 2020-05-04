@@ -4,99 +4,93 @@ This is a website that aims to promote healthy eating style.
 
 ## UX
 
-This website is addressed to people of all ages who want to change their diet to a healthier one. The right nutrition plan for an individual prepared especially for you. Appropriate calorie demand created to a specific person.
+This website is addressed to people of all ages who want to change their eating habits to a healthier one. The right nutrition plan for an individual prepared especially for you. Appropriate calorie demand created to a specific person.
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### Potential User
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+#### As a potential client:
+- I want to be able to view the site on any device like: mobile/tablet/desktop.
+- I want to have the ability to register to the site.
+- I want to be able to get in contact with the support through the website.
+- I want to have the ability to see connection to social media accounts associated with the website like: Facebook, Instagram etc.
+- I want to have the ability to see price plans.
 
 ## Features
 
 1. Navigation bar - This allows users to easy access to all section in page.
-..* About - This is section telling about this what is our mission. 
-..* Nutrition - This is a section with the definition of nutrition.
-..* Menu - This is section showing Sampel of menu.
-..* Gallery - This section showing pictures of food.
-..* Contact - This is section where takr you to address.
-..* Sign in - This button take`s you to form were you can sign in.
+- About - This is section telling about this what is our mission. 
+- Nutrition - This is a section with the definition of nutrition.
+- Menu - This is section showing Sampel of menu.
+- Price plans - This is section showing price plans.
+- Gallery - This is section showing pictures of food.
+- Contact - This is section where takr you to address.
+- Sign in - This button take`s you to form were you can sign in.
 2. Footer - This allows users to easy access to social media.
-..* - Social media: Facebook, Twitter, Instagram and Linkedin.
-..* - Contact: Address, Phone and Email.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
+- Social media: Facebook, Twitter, Instagram and Linkedin.
+- Contact: Address, Phone and Email.
 
 ## Technologies Used
 
-# Language
+### Language
 
-..* HTML - standard language used to create this page.
-..* CSS - standard language that describes the style of HTML.
-..* Bootstrap CDN - Used as the core structuring layout for the application, ensuring mobile-first design and screen size fluidity.
-..* Github - Used to host the repository.
+- HTML - standard language used to create this page.
+- CSS - standard language that describes the style of HTML.
+- Bootstrap CDN - Used as the core structuring layout for the application, ensuring mobile-first design and screen size fluidity.
+- Github - Used to host the repository.
+- JQuery - used to simplify DOM manipulation. 
 
-# Tools Used
+### Tools Used
 
-..* Google Fonts - to style the website fonts.
-..* Font Awesome Icons - to add icons on the web page.
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- Google Fonts - to style the website fonts.
+- Font Awesome Icons - to add icons on the web page.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The project was tested on development tools in Google Chrome and the responsiveness of mobile devices was also tested.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+One of the testing steps was on W3C Markup Validation and W3C CSS validation.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Another step was testing by the Slack community, my mentor from the Code Institut and my friends and family.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+Testing consists in finding any errors that could reveal the incorrect operation of the website during its use. The tested website was also on mobile devices.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+All problems related to the functioning of the site have been resolved.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+My website is hosted on GitHub Pages follow the instructions:
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+GitHub Pages
+Navigate to my Github repository - https://github.com/Maras00/Milestone-Project
+Click on the settings tab at the top of the page.
+Scroll down to the GitHub Pages section.
+Change the source to master branch.
+After selecting master branch the page will refresh.
+Scroll down to the GitHub Pages section and a green box saying "your site is published at" will appear.
+Click the link to go to the published website.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+You can view the deployed website here - https://maras00.github.io/Milestone-Project/
+
+Git Clone
+Navigate to my Github repository - https://github.com/Maras00/Milestone-Project
+Click the green drop down that says clone or download.
+To clone with HTTPS copy the URL in the box. https://github.com/Maras00/Milestone-Project.git
+Open up your preferred IDE (Integrated Development Environment)
+Change the directory to the location you want the clone to be made.
+Type git clone and then paste the copied URL from step 3.
+Press Enter and your local clone will be created.
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for nutrition section was copied from the [Wikipedia Nutrition](https://en.wikipedia.org/wiki/Nutrition)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The images for logo background and gallery section was copied from the [Google Gallery](https://www.google.ie/search?q=healthy+food&client=ms-android-huawei&sxsrf=ALeKk006R8xCGre7PocOmojHTJH1jAEphg:1588587789842&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjlvqHX_pnpAhXCQxUIHXWoCqUQ_AUoAXoECA4QAw&biw=1366&bih=625) 
+
+
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my family and friends.

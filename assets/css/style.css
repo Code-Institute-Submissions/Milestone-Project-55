@@ -216,6 +216,19 @@ li {
     border-color: #fdf610!important;
 }
 
+/*-----------Prices Section--------------*/
+
+.price-plans li {
+    margin: 10px;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    font-size: 25px;
+}
+
 /*-----------Gallery Section--------------*/
 
 .images-container img {
@@ -322,7 +335,7 @@ body {
 .block-divider {
     width: 100px;
 }
-
+}
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-weight: 300;
@@ -331,7 +344,7 @@ body {
 }
 
 .footer-left div {
-    margin: 20px;
+    margin: 0 50px;
 }
 
 @media only screen and (min-width: 768px) {
