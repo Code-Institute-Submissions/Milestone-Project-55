@@ -335,7 +335,7 @@ body {
 .block-divider {
     width: 100px;
 }
-}
+
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-weight: 300;
@@ -346,7 +346,7 @@ body {
 .footer-left div {
     margin: 0 50px;
 }
-
+}
 @media only screen and (min-width: 768px) {
     body {
     background-color: transparent; 
@@ -366,6 +366,10 @@ body {
 .images-container img {
     width: auto;
     max-width: 100%;
+}
+
+.block-divider {
+    width: 300px;
 }
 }
 
