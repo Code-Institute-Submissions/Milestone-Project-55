@@ -7,9 +7,15 @@ body {
 /*-----------All Section--------------*/
 
 .container-wrapper {
-    background-color: #343a40;
-    color: #03ff0b;
+    margin: 0;
+    background-color: #26292b;
+    color: #cbd4dc;
     }
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
 
 .block-divider {
     width: 800px;
@@ -25,6 +31,15 @@ body {
 
 /*-----------Navbar--------------*/
 
+.navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .navbar {
     margin-bottom: 0;
     border:0;
@@ -32,7 +47,7 @@ body {
 }
 
 .bg-dark {
-    background-color: #485058!important;
+    background-color: #485058;
 }
 
 .navbar-brand {
@@ -43,11 +58,11 @@ body {
 }
 
 .navbar-brand:hover {
-    color: #f1b606!important; 
+    color: #4cca4f!important; 
 }
 
 .text-navbar {
-    color: #fdf610;
+    color: #cbd4dc;
     font-size: 20px;
     padding-right: 20px;
     padding-left: 10px;
@@ -55,7 +70,7 @@ body {
 }
 
 .text-navbar:hover {
-    color: #f1b606;
+    color: #4cca4f;
 }
 
 .btn a:hover {
@@ -74,18 +89,18 @@ body {
 /*-----------Logo--------------*/
 
 .logo-container {
-    background-image: url("../images/background5.jpg");
-    background-size: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 100%;
     height: 100vh;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url("../images/background5.jpg");
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
 
-    position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   position: relative;
 }
 
 .logo-text {
@@ -111,7 +126,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /*-----------Jumbotron--------------*/
@@ -123,11 +138,11 @@ body {
 /*-----------Buttons--------------*/
 
 .btn {
-    margin-right: 10px;
+    margin-right: auto;
 }
 
 .btn:hover {
-    color: #f5c946;
+    color: #343a40;
 }
 .btn--cta {
     color: #f5c946;
@@ -163,57 +178,80 @@ body {
     background-color: #4d565f!important;
 }
 
+/*-----------Promo Alert--------------*/
 
+.site-wide-alert {
+    color: #4cca4f;
+    background-color: #343a40;
+    border-color: rgba(0,0,0,.5);
+    padding: 10px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size: 20px;
+    position: relative;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
 /*-----------Page Header--------------*/
 
 .page-header h2 {
     margin: 20px;
     padding: 20px;
-    color: #03ff0b;
+    color: #4cca4f;
 }
 
 .page-header p {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 20px;
     text-align: left;
 }
 
 .middle-title {
     text-align: left;
     text-decoration: underline;
-    color: #03ff0b;
+    color: #4cca4f;
     margin: 30px;
+    font-size: 22px;
 }
 
 /*-----------Menu Section--------------*/
 
 .menu-option {
-    color: #fdf610;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
 }
 
 .menu-titel {
-    color: #03ff0b;
-    margin: 20px; 
+    color: #cbd4dc8f;
+    margin: 20px;
+    text-transform: uppercase;
 }
 
 .menu-item {
-    color: #fdf610;
+    color: #cbd4dc;
     margin: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
-li {
-     color: #03ff0b;
-}
+
 
 .border {
-    border-color: #fdf610!important;
+    border-color: #cbd4dc!important;
     margin: 0;
 }
 
 .border-white {
-    border-color: #fdf610!important;
+    border-color: #cbd4dc!important;
+}
+
+.ingrediens li {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    font-size: 20px; 
 }
 
 /*-----------Prices Section--------------*/
@@ -236,16 +274,12 @@ li {
    
 }
 
-
-
 /*-----------Contact Section--------------*/
-
-
 
 .form-control {
     background-color: #fdf610;
     border: 1px solid #03ff0b;
-    color:#4ad472;
+    color:#596067;
 }
 .form-control:focus {
     color: #e1e1e1;
@@ -271,7 +305,7 @@ li {
 /*-----------Footer--------------*/
 
 footer  {
-    background-color:#485058;
+    background-color: #343a40;
     text-align: center;
     padding: 10px;
 }
@@ -295,13 +329,14 @@ footer i {
 
 .footer-left div {
     display: inline-block;
-    margin: 5em;
+    margin: 1em 4em;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
 body {
-    background-color: transparent; 
+    background-color: #485058; 
+    padding: 5px;
 }
 
 .logo-container {
@@ -331,7 +366,7 @@ body {
       font-size: 43px;
       display: inline;
 }
-  
+
 .block-divider {
     width: 100px;
 }
@@ -346,10 +381,15 @@ body {
 .footer-left div {
     margin: 0 50px;
 }
+
+.price-plans li {
+    margin-left: 0;
+}
+
 }
 @media only screen and (min-width: 768px) {
     body {
-    background-color: transparent; 
+    background-color: #485058; 
 }
 
 .logo-container {
@@ -373,9 +413,9 @@ body {
 }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 992px) {
 body {
-    background-color: transparent; 
+    background-color: #485058; 
 }
 .images-container img {
     width: auto;
