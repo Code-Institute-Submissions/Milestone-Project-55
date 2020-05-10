@@ -78,7 +78,7 @@ body {
 }
 
 .navbar-toggler:focus  {
-    outline: black;
+    outline: transparent;
 }
 
 .navbar-light .navbar-brand {
@@ -91,16 +91,16 @@ body {
 .logo-container {
     height: 100vh;
     background-image: url("../images/background5.jpg");
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-   background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-   position: relative;
+    position: relative;
 }
 
 .logo-text {
@@ -109,7 +109,6 @@ body {
    font-size: 115px;
    color: #03ff0b; 
    position: relative;
-   
 }
 
 .logo-text2 {
@@ -138,7 +137,7 @@ body {
 /*-----------Buttons--------------*/
 
 .btn {
-    margin-right: auto;
+    margin-right: 10px;
 }
 
 .btn:hover {
@@ -174,7 +173,7 @@ body {
     color: transparent;
 }
 
-.navbar .navbar-toggler:hover{
+.navbar .navbar-toggler:hover {
     background-color: #4d565f!important;
 }
 
@@ -183,12 +182,12 @@ body {
 .site-wide-alert {
     color: #4cca4f;
     background-color: #343a40;
-    border-color: rgba(0,0,0,.5);
-    padding: 10px 15px;
+    border-color: rgba(0,0,0,0.5);
+    padding: 15px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
     border-radius: 0;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
 }
 
@@ -237,8 +236,6 @@ body {
     text-transform: uppercase;
 }
 
-
-
 .border {
     border-color: #cbd4dc!important;
     margin: 0;
@@ -281,6 +278,7 @@ body {
     border: 1px solid #03ff0b;
     color:#596067;
 }
+
 .form-control:focus {
     color: #e1e1e1;
     background-color: #596067;
@@ -304,7 +302,7 @@ body {
 
 /*-----------Footer--------------*/
 
-footer  {
+footer {
     background-color: #343a40;
     text-align: center;
     padding: 10px;
@@ -356,15 +354,13 @@ body {
 }
 
 .logo-text {
-     font-size: 75px;
-     display: inline;
+     font-size: 60px;
      padding: 0;
      margin: 0;
 }
 
 .logo-text2 {
       font-size: 43px;
-      display: inline;
 }
 
 .block-divider {
@@ -385,10 +381,10 @@ body {
 .price-plans li {
     margin-left: 0;
 }
-
 }
+
 @media only screen and (min-width: 768px) {
-    body {
+body {
     background-color: #485058; 
 }
 

@@ -1,4 +1,4 @@
-# Project "Healty Live"
+# Project "Healthy Live"
 
 This is a website that aims to promote healthy eating style.
 
