@@ -1,5 +1,7 @@
 # Project "Healthy Live"
 
+![Devices picture](assets/images/all-devices.png)
+
 This is a website that aims to promote healthy eating style.
 
 ## UX
