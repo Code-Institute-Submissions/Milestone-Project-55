@@ -1,34 +1,37 @@
-# Project "Healthy Live"
+# Project "Healthy Life"
 
 ![Devices picture](assets/images/all-devices.png)
+
+This page has been created for the needs of my first milestone project as a Full Stack software developer student of the Code Institute.
 
 This is a website that aims to promote healthy eating style.
 
 ## UX
 
-This website is addressed to people of all ages who want to change their eating habits to a healthier one. The right nutrition plan for an individual prepared especially for you. Appropriate calorie demand created to a specific person.
+This website is addressed to people of all ages who want to change their eating habits for a healthier one. The right nutrition plan for an individual, prepared especially for you. An appropriate calorie requirement plan created for a specific person.
  
 ### Potential User
 
 #### As a potential client:
+
 - I want to be able to view the site on any device like: mobile/tablet/desktop.
 - I want to have the ability to register to the site.
-- I want to be able to get in contact with the support through the website.
-- I want to have the ability to see connection to social media accounts associated with the website like: Facebook, Instagram etc.
+- I want to be able to access Support through the website.
+- I want to have the ability to connect social media accounts associated with the website like: Facebook, Instagram etc.
 - I want to have the ability to see price plans.
 
 ## Features
 
-1. Navigation bar - This allows users to easy access to all section in page.
-- About - This is section telling about this what is our mission. 
-- Nutrition - This is a section with the definition of nutrition.
-- Menu - This is section showing Sampel of menu.
-- Price plans - This is section showing price plans.
-- Gallery - This is section showing pictures of food.
-- Contact - This is section where takr you to address.
-- Sign in - This button take`s you to form were you can sign in.
-2. Footer - This allows users to easy access to social media.
-- Social media: Facebook, Twitter, Instagram and Linkedin.
+1. Navigation bar - This allows users to easliy access all section on this page.
+- About - This section describes our mission. 
+- Nutrition - This section clarifies the definition of nutrition.
+- Menu - This section shows a Sample menu.
+- Price plans - This section shows the price plans.
+- Gallery - This section shows sample pictures of food.
+- Contact - This section contains contact details.
+- Sign in - This button takes you to the form where you can sign in.
+2. Footer - This allows users to easily access social media.
+- Social media: Facebook, Twitter, Instagram and LinkedIn.
 - Contact: Address, Phone and Email.
 
 ## Technologies Used
@@ -50,17 +53,19 @@ This website is addressed to people of all ages who want to change their eating 
 
 The project was tested on development tools in Google Chrome and the responsiveness of mobile devices was also tested.
 
-One of the testing steps was on W3C Markup Validation and W3C CSS validation.
+The first of the testing steps was on W3C Markup Validation and W3C CSS validation.
 
-Another step was testing by the Slack community, my mentor from the Code Institut and my friends and family.
+The second of testing steps was http://ami.responsivedesign.is/, which has been used to see how the site performs on different devices and their viewports. All pages, links, icons performed as expected on all devices. I also used it to create the all-devices.png at the top of this Readme.
 
-Testing consists in finding any errors that could reveal the incorrect operation of the website during its use. The tested website was also on mobile devices.
+The third step was testing by the Slack community, my mentor from the Code Institute and my friends and family.
+
+Testing consists of finding any errors that could reveal the incorrect operation of the website during its use. The website was also tested on mobile devices.
 
 All problems related to the functioning of the site have been resolved.
 
 ## Deployment
 
-My website is hosted on GitHub Pages follow the instructions:
+My website is hosted on GitHub Pages, follow the instructions:
 
 GitHub Pages
 Navigate to my Github repository - https://github.com/Maras00/Milestone-Project
@@ -86,13 +91,13 @@ Press Enter and your local clone will be created.
 ## Credits
 
 ### Content
-- The text for nutrition section was copied from the [Wikipedia Nutrition](https://en.wikipedia.org/wiki/Nutrition)
+- The text for nutrition section was copied from [Wikipedia Nutrition](https://en.wikipedia.org/wiki/Nutrition)
 
 ### Media
-- The images for logo background and gallery section was copied from the [Google Gallery](https://www.google.ie/search?q=healthy+food&client=ms-android-huawei&sxsrf=ALeKk006R8xCGre7PocOmojHTJH1jAEphg:1588587789842&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjlvqHX_pnpAhXCQxUIHXWoCqUQ_AUoAXoECA4QAw&biw=1366&bih=625) 
+- The images for logo background and gallery section were copied from [Google Gallery](https://www.google.ie/search?q=healthy+food&client=ms-android-huawei&sxsrf=ALeKk006R8xCGre7PocOmojHTJH1jAEphg:1588587789842&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjlvqHX_pnpAhXCQxUIHXWoCqUQ_AUoAXoECA4QAw&biw=1366&bih=625) 
 
 
 
 ### Acknowledgements
 
-- I received inspiration for this project from my family and friends.
+- I received inspiration and help for this project from my mentor, Slack community, family and friends.
