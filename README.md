@@ -9,7 +9,15 @@ This is a website that aims to promote healthy eating style.
 ## UX
 
 This website is addressed to people of all ages who want to change their eating habits for a healthier one. The right nutrition plan for an individual, prepared especially for you. An appropriate calorie requirement plan created for a specific person.
- 
+
+## Wireframes
+
+Wireframe shows how the webpage will look on three different devices(Desktop,Ipad and Mobile). Wireframes were designed with [Balsamiq Wireframes 4.0.28](https://balsamiq.com/wireframes/).
+Desktop                    |  Ipad                     | Mobile
+:-------------------------:|:-------------------------:|:-------------------------:
+![here](assets/images/desktop-wf.png) | ![here](assets/images/ipad-wf.png) | ![here](assets/images/mobile-wf.png) 
+
+
 ### Potential User
 
 #### As a potential client:
@@ -28,8 +36,8 @@ This website is addressed to people of all ages who want to change their eating 
 - Menu - This section shows a Sample menu.
 - Price plans - This section shows the price plans.
 - Gallery - This section shows sample pictures of food.
-- Contact - This section contains contact details.
-- Sign in - This button takes you to the form where you can sign in.
+- Contact - This section contains contact details under Sign Up Form.
+- Sign Up - This button takes you to the form where you can sign up.
 2. Footer - This allows users to easily access social media.
 - Social media: Facebook, Twitter, Instagram and LinkedIn.
 - Contact: Address, Phone and Email.
