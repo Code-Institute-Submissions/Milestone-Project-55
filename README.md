@@ -15,7 +15,7 @@ This website is addressed to people of all ages who want to change their eating 
 Wireframe shows how the webpage will look on three different devices(Desktop,Ipad and Mobile). Wireframes were designed with [Balsamiq Wireframes 4.0.28](https://balsamiq.com/wireframes/).
 Desktop                    |  Ipad                     | Mobile
 :-------------------------:|:-------------------------:|:-------------------------:
-![here](assets/images/desktop-wf.png) | ![here](assets/images/ipad-wf.png) | ![here](assets/images/mobile-wf.png) 
+![Desktop](assets/images/desktop-wf.png) | ![Ipad](assets/images/ipad-wf.png) | ![Mobile](assets/images/mobile-wf.png) 
 
 
 ### Potential User
