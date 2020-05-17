@@ -334,7 +334,7 @@ footer i {
 
 @media only screen and (max-width: 576px) {
 body {
-    background-color: #485058; 
+    background-color: #26292b; 
     padding: 5px;
 }
 
@@ -386,7 +386,7 @@ body {
 
 @media only screen and (min-width: 768px) {
 body {
-    background-color: #485058; 
+    background-color: #26292b; 
 }
 
 .logo-container {
@@ -412,7 +412,7 @@ body {
 
 @media only screen and (min-width: 992px) {
 body {
-    background-color: #485058; 
+    background-color: #26292b; 
 }
 .images-container img {
     width: auto;
